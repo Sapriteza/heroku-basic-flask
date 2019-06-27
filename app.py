@@ -47,17 +47,14 @@ def callback():
         if message_type == "text":
             text = body['events'][0]['message']['text']
             print("text: {}".format(text))
-            if "สวัสดี" in text or "Hello" in text or "hi" in text:
-                print("replying text:{}".format(text))
-                reply_menu3(reply_token)
-            elif text == "330e":
-                line_bot_api.reply_message(reply_token, TextSendMessage(text='ราคา 3,590,000 บาท'))
-            elif text == "m5":
-                line_bot_api.reply_message(reply_token, TextSendMessage(
-                    text='ราคา 5,990,000 บาท'))
-            elif text == "320d":
-                line_bot_api.reply_message(reply_token, TextSendMessage(
-                    text='ราคา 2,790,000 บาท'))
+            if "home" in text or "Home" in text:
+              print("replying text:{}".format(text))
+              reply_menu3(reply_token)
+          elif text == "weather":
+              line_bot_api.reply_message(reply_token, TextSendMessage(text='ตอนนี้อุณหภูมิ ที่บ้าน 30 C '))
+          elif text == "energy":
+              line_bot_api.reply_message(reply_token, TextSendMessage(text='การใช้ไฟไฟ้าที่บ้านวันนี้ 3.4 หน่วย คิดเป็นเงิน 12 บาท'))
+                reply_menu(reply_token)
 
     return '',200
 
@@ -78,38 +75,24 @@ def reply_menu(reply_token):
     "actions": [],
     "columns": [
       {
-        "thumbnailImageUrl": "https://cdn.gearpatrol.com/wp-content/uploads/2019/03/Complete-BMW-Buying-Guide-gear-patrol-lead-full.jpg",
-        "title": "BMW",
-        "text": "530e",
+        "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/06/27/1CCpqZ.th.jpg",
+        "text": "weather",
         "actions": [
           {
             "type": "message",
-            "label": "เลือก",
-            "text": "530e"
+            "label": "weather",
+            "text": "weather"
           }
         ]
       },
       {
-        "thumbnailImageUrl": "https://www.checkraka.com/uploaded/gallery/e3/e36bb3d5cc014801b2f7f62c5595667a.png",
-        "title": "BMW",
-        "text": "M5",
+        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
+        "text": "energy",
         "actions": [
           {
             "type": "message",
-            "label": "เลือก",
-            "text": "m5"
-          }
-        ]
-      },
-      {
-        "thumbnailImageUrl": "https://www.gqthailand.com/uploads/BMW-3-Series-2019-1600-28.jpg",
-        "title": "BMW",
-        "text": "320d",
-        "actions": [
-          {
-            "type": "message",
-            "label": "เลือก",
-            "text": "320d"
+            "label": "energy",
+            "text": "energy"
           }
         ]
       }
