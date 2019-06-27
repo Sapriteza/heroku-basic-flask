@@ -48,12 +48,7 @@ def callback():
             text = body['events'][0]['message']['text']
             print("text: {}".format(text))
             if "home" in text or "Home" in text:
-              print("replying text:{}".format(text))
-              reply_menu3(reply_token)
-          elif text == "weather":
-              line_bot_api.reply_message(reply_token, TextSendMessage(text='ตอนนี้อุณหภูมิ ที่บ้าน 30 C '))
-          elif text == "energy":
-              line_bot_api.reply_message(reply_token, TextSendMessage(text='การใช้ไฟไฟ้าที่บ้านวันนี้ 3.4 หน่วย คิดเป็นเงิน 12 บาท'))
+                print("replying text:{}".format(text))
                 reply_menu(reply_token)
 
     return '',200
