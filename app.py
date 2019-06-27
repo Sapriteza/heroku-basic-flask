@@ -47,9 +47,17 @@ def callback():
         if message_type == "text":
             text = body['events'][0]['message']['text']
             print("text: {}".format(text))
-            if "home" in text or "Home" in text:
+            if "สวัสดี" in text or "Hello" in text or "hi" in text:
                 print("replying text:{}".format(text))
-                reply_menu(reply_token)
+                reply_menu3(reply_token)
+            elif text == "330e":
+                line_bot_api.reply_message(reply_token, TextSendMessage(text='ราคา 3,590,000 บาท'))
+            elif text == "m5":
+                line_bot_api.reply_message(reply_token, TextSendMessage(
+                    text='ราคา 5,990,000 บาท'))
+            elif text == "320d":
+                line_bot_api.reply_message(reply_token, TextSendMessage(
+                    text='ราคา 2,790,000 บาท'))
 
     return '',200
 
