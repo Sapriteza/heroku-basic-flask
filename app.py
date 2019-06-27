@@ -64,21 +64,37 @@ def reply_menu(reply_token):
             "replyToken": str(reply_token),
             "messages": [{
   "type": "template",
-  "altText": "this is a buttons template",
+  "altText": "this is a carousel template",
   "template": {
-    "type": "buttons",
-    "actions": [
+    "type": "carousel",
+    "actions": [],
+    "columns": [
       {
-        "type": "message",
-        "label": "เลือก",
-        "text": "330i"
+        "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/06/27/1CCpqZ.th.jpg",
+        "text": "weather",
+        "actions": [
+          {
+            "type": "message",
+            "label": "weather",
+            "text": "weather"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
+        "text": "energy",
+        "actions": [
+          {
+            "type": "message",
+            "label": "energy",
+            "text": "energy"
+          }
+        ]
       }
-    ],
-    "thumbnailImageUrl": "https://cdn.gearpatrol.com/wp-content/uploads/2019/03/Complete-BMW-Buying-Guide-gear-patrol-lead-full.jpg",
-    "title": "BMW",
-    "text": "330i"
+    ]
   }
-})
+}]
+        })
     )
 
 if __name__ == "__main__":
