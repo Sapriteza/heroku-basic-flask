@@ -47,7 +47,7 @@ def callback():
         if message_type == "text":
             text = body['events'][0]['message']['text']
             print("text: {}".format(text))
-            if "home" in text or "Home" in text:
+            if "home" in text or "Home" in text or "สวัสดี" in text or "บ้าน" in text:
                 print("replying text:{}".format(text))
                 reply_menu(reply_token)
 
