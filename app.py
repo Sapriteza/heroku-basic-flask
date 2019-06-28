@@ -95,8 +95,8 @@ def reply_menu(reply_token):
                                 "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
                                 "action": {
                                     "type": "message",
-                                    "label": "weather",
-                                    "text": "weather"
+                                    "label": "530e",
+                                    "text": "530e"
                                 }
                             },
                             {
@@ -104,8 +104,8 @@ def reply_menu(reply_token):
                                 "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
                                 "action": {
                                     "type": "message",
-                                    "label": "energy",
-                                    "text": "energy"
+                                    "label": "m5",
+                                    "text": "m5"
                                 }
                             }
                         ]
@@ -148,8 +148,8 @@ def reply_menu2(reply_token):
         "actions": [
           {
             "type": "message",
-            "label": "click",
-            "text": "energy"
+            "label": "เลือก",
+            "text": "530e"
           }
         ]
       },
@@ -159,8 +159,8 @@ def reply_menu2(reply_token):
         "actions": [
           {
             "type": "message",
-            "label": "click",
-            "text": "weather"
+            "label": "เลือก",
+            "text": "m5"
           }
         ]
       }
