@@ -188,24 +188,38 @@ def reply_menu3(reply_token):
     "actions": [],
     "columns": [
       {
-        "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/06/27/1CCpqZ.th.jpg",
-        "text": "weather",
+        "thumbnailImageUrl": "https://cdn.gearpatrol.com/wp-content/uploads/2019/03/Complete-BMW-Buying-Guide-gear-patrol-lead-full.jpg",
+        "title": "BMW",
+        "text": "530e",
         "actions": [
           {
             "type": "message",
-            "label": "weather",
-            "text": "weather"
+            "label": "เลือก",
+            "text": "530e"
           }
         ]
       },
       {
-        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
-        "text": "energy",
+        "thumbnailImageUrl": "https://www.checkraka.com/uploaded/gallery/e3/e36bb3d5cc014801b2f7f62c5595667a.png",
+        "title": "BMW",
+        "text": "M5",
         "actions": [
           {
             "type": "message",
-            "label": "energy",
-            "text": "energy"
+            "label": "เลือก",
+            "text": "m5"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://www.gqthailand.com/uploads/BMW-3-Series-2019-1600-28.jpg",
+        "title": "BMW",
+        "text": "320d",
+        "actions": [
+          {
+            "type": "message",
+            "label": "เลือก",
+            "text": "320d"
           }
         ]
       }
