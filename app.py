@@ -143,7 +143,7 @@ def reply_menu2(reply_token):
     "actions": [],
     "columns": [
       {
-        "thumbnailImageUrl": "https://cdn.gearpatrol.com/wp-content/uploads/2019/03/Complete-BMW-Buying-Guide-gear-patrol-lead-full.jpg",
+        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
         "text": "Energy",
         "actions": [
           {
@@ -154,7 +154,7 @@ def reply_menu2(reply_token):
         ]
       },
       {
-        "thumbnailImageUrl": "https://www.checkraka.com/uploaded/gallery/e3/e36bb3d5cc014801b2f7f62c5595667a.png",
+        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
         "text": "Weather",
         "actions": [
           {
@@ -188,7 +188,7 @@ def reply_menu3(reply_token):
     "actions": [],
     "columns": [
       {
-        "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/06/27/1CCpqZ.th.jpg",
+        "thumbnailImageUrl": "https://www.checkraka.com/uploaded/gallery/e3/e36bb3d5cc014801b2f7f62c5595667a.png",
         "text": "weather",
         "actions": [
           {
@@ -199,7 +199,7 @@ def reply_menu3(reply_token):
         ]
       },
       {
-        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
+        "thumbnailImageUrl": "https://www.gqthailand.com/uploads/BMW-3-Series-2019-1600-28.jpg",
         "text": "energy",
         "actions": [
           {
