@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 line_channel_access_token = 'pCscQmDdWtYbUv0pZabr6gC/jyE6EmIzIWXtn+OPQXVJ+MDj+jDIOiAXm6zCiAYrUrx36MFlI5xX4JK99A+FigOnddQNO6eSP0P9N9W903vSRtaSqLecq0vEid86MRZ7Hte7DNZASn7pxgNIlf8NMwdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(line_channel_access_token)
-handler = WebhookHandler('96363b03e615241b7d68c6ef2ba8dcf2')
+handler = WebhookHandler('5de26da6d41d293d705a5f3504706800')
 Authorization = "Bearer {}".format(line_channel_access_token)
 
 
