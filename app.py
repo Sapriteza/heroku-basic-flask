@@ -48,7 +48,7 @@ def callback():
         if message_type == "text":
             text = body['events'][0]['message']['text']
             print("text: {}".format(text))
-            if "home" in text or "Home" in text or "บ้าน" in text or "สวัสดี" in text:
+            if "home" in text or "Home" in text or "บ้าน" in text or "สวัสดี" in text or "รถ" in text or "hello" in text or "ซื้อรถ" in text:
                 print("replying text:{}".format(text))
                 reply_menu3(reply_token)
             elif text == "530e":
