@@ -54,7 +54,7 @@ def callback():
             elif text == "weather":
                 line_bot_api.reply_message(reply_token, TextSendMessage(text='ตอนนี้อุณหภูมิ ที่บ้าน 30 C '))
             elif text == "energy":
-                line_bot_api.reply_message(reply_token, TextSendMessage(text='การใช้ไไฟ้าที่บ้านวันนี้ 3.4 หน่วย คิดเป็นเงิน 12 บาท'))
+                line_bot_api.reply_message(reply_token, TextSendMessage(text='การใช้ไฟฟ้าที่บ้านวันนี้ 3.4 หน่วย คิดเป็นเงิน 12 บาท'))
 
     return '',200
 
