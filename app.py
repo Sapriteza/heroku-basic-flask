@@ -54,7 +54,7 @@ def callback():
             elif text == "weather":
                 line_bot_api.reply_message(reply_token, TextSendMessage(text='ตอนนี้อุณหภูมิ ที่บ้าน 30 C '))
             elif text == "energy":
-                line_bot_api.reply_message(reply_token, TextSendMessage(text='การใช้ไฟฟ้าที่บ้านวันนี้ 3.4 หน่วย คิดเป็นเงิน 12 บาท'))
+                line_bot_api.reply_message(reply_token, TextSendMessage(text='การใช้ไไฟ้าที่บ้านวันนี้ 3.4 หน่วย คิดเป็นเงิน 12 บาท'))
 
     return '',200
 
@@ -188,7 +188,7 @@ def reply_menu3(reply_token):
     "actions": [],
     "columns": [
       {
-        "thumbnailImageUrl": "https://www.checkraka.com/uploaded/gallery/e3/e36bb3d5cc014801b2f7f62c5595667a.png",
+        "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/06/27/1CCpqZ.th.jpg",
         "text": "weather",
         "actions": [
           {
@@ -199,7 +199,7 @@ def reply_menu3(reply_token):
         ]
       },
       {
-        "thumbnailImageUrl": "https://www.gqthailand.com/uploads/BMW-3-Series-2019-1600-28.jpg",
+        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
         "text": "energy",
         "actions": [
           {
