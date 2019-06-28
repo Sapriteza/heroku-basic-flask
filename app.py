@@ -51,10 +51,12 @@ def callback():
             if "home" in text or "Home" in text or "บ้าน" in text or "สวัสดี" in text:
                 print("replying text:{}".format(text))
                 reply_menu3(reply_token)
-            elif text == "weather":
-                line_bot_api.reply_message(reply_token, TextSendMessage(text='ตอนนี้อุณหภูมิ ที่บ้าน 30 C '))
-            elif text == "energy":
-                line_bot_api.reply_message(reply_token, TextSendMessage(text='การใช้ไไฟ้าที่บ้านวันนี้ 3.4 หน่วย คิดเป็นเงิน 12 บาท'))
+            elif text == "530e":
+                line_bot_api.reply_message(reply_token, TextSendMessage(text='ราคา 3,590,000 บาท '))
+            elif text == "m5":
+                line_bot_api.reply_message(reply_token, TextSendMessage(text='ราคา 5,790,000 บาท '))
+            elif text == "320d":
+                line_bot_api.reply_message(reply_token, TextSendMessage(text='ราคา 2,790,000 บาท '))
 
     return '',200
 
